@@ -45,6 +45,9 @@
   </dependencies>
 
   <build>
+    <finalName>
+      template
+    </finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
