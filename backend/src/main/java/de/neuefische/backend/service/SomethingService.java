@@ -4,6 +4,8 @@ import de.neuefische.backend.model.Something;
 import de.neuefische.backend.repo.SomethingRepo;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class SomethingService {
 
@@ -16,5 +18,9 @@ public class SomethingService {
 
     public void addNewSomething(Something build) {
         somethingRepo.save(build);
+    }
+
+    public List<Something> getAll() {
+        return somethingRepo.findAll();
     }
 }
