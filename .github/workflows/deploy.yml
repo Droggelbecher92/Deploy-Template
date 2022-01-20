@@ -41,7 +41,7 @@ jobs:
         run: mvn -B package --file backend/pom.xml
       - uses: actions/upload-artifact@v2
         with:
-          name: template.jar
+          name: template.jar #Must be the same as 'finalName' in pom.xml
           path: backend/target/template.jar
 
   deploy-heroku:
@@ -56,11 +56,11 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/download-artifact@v2
         with:
-          name: template.jar
+          name: template.jar  #Must be the same as 'finalName' in pom.xml
           path: backend/target
       - name: Login to heroku
         run: heroku container:login
       - name: Push docker container
-        run: heroku container:push web -a kevinowens
+        run: heroku container:push web -a kevinowens #Change with your heroku-app name
       - name: Deploy docker container
-        run: heroku container:release web -a kevinowens
+        run: heroku container:release web -a kevinowens #Change with your heroku-app name

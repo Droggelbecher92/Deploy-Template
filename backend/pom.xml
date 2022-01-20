@@ -25,7 +25,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
@@ -44,10 +43,9 @@
     </dependency>
   </dependencies>
 
-
   <build>
     <finalName>
-      template
+      template <!-- Change to your App-Name -->
     </finalName>
     <plugins>
       <plugin>
