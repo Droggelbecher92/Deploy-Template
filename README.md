@@ -4,6 +4,11 @@
 With this template, you are ste to deploy your application to Heroku.
 I´m using a Spring backend, React JS Frontend with MongoDB database.
 
+## Try it out
+- Standard react starting-page: https://kevinowens.herokuapp.com/
+- Simple DB- request to save new Document and show all Documents: https://kevinowens.herokuapp.com/api
+  (if you count the items, you know how many people visited the site :D)
+
 ## - What you need:
 
 - [Heroku account](https://www.heroku.com/)
