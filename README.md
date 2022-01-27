@@ -35,7 +35,7 @@ I´m using a Spring backend, React JS Frontend with MongoDB database.
     - Either generate or copy your API-Key.
 - Github:
     - We have save this API-Key in our Repo, to Login to Heroku.
-    - Go to your Repo => Settings => Secrets => New Repository Secret
+    - Go to your Repo => Settings => Secrets => Actions => New Repository Secret
     - Save your API-Key as `HEROKU_API_KEY`, save, and now GitHub and Heroku can communicate.
 
 ## - What to change:
