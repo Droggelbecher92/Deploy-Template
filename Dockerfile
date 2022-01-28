@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-MAINTAINER Thomas <thomaskittlaus@gmail.com>
+LABEL Thomas="thomaskittlaus@gmail.com"
 
 ADD backend/target/template.jar template.jar
 
