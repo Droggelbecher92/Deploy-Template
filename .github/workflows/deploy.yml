@@ -17,7 +17,7 @@ jobs:
         run: |
           cd frontend
           npm install
-          npm CI="" run build #Warnings are ignored / If you want to deploy Frontend without any warnings, remove "CI="""
+          npm CI=false run build #Warnings are ignored / If you want to deploy Frontend without any warnings, remove "CI="""
       - uses: actions/upload-artifact@v2
         with:
           name: frontend-build
