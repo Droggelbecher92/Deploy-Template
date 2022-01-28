@@ -33,6 +33,7 @@ I´m using a Spring backend, React JS Frontend with MongoDB database.
       GitHub, in this case an API-Key. We can generate our API-Key in Heroku by clicking the
       User-icon (top-right) => Account settings => scroll down untill you see API-Key
     - Either generate or copy your API-Key.
+    - Thats all you have to do on Heroku. Everything else is done by the CI in combination with the API-Key.
 - Github:
     - We have save this API-Key in our Repo, to Login to Heroku.
     - Go to your Repo => Settings => Secrets => Actions => New Repository Secret
