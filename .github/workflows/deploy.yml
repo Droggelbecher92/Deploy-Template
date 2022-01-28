@@ -49,7 +49,7 @@ jobs:
     needs: build-backend
     environment: #optional, zeigt 'nur' den Link im Repo an
       name: template-heroku
-      url: https://fullstackheroku.herokuapp.com/
+      url: https://kevinowens.herokuapp.com/ #change to your App-URL provided by heroku
     env:
       HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
     steps:
