@@ -1,7 +1,7 @@
 # Template for deployment
 
 
-With this template, you are ste to deploy your application to Heroku.
+With this template, you are set to deploy your application to Heroku.
 I´m using a Spring backend, React JS Frontend with MongoDB database.
 
 ## Try it out
