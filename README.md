@@ -51,7 +51,10 @@ I´m using a Spring backend, React JS Frontend with MongoDB database.
 - Dockerfile:
   - Please change the Label :D
   - The .jar name should be changed to the same name, as in the pom.xml under 'finalName' (at three places, you´ll manage to do it!)
-  
+
+- application.properties:
+  - You can change the DB name for your local MongoDB here.
+
 - You can remove all Packages in the backend, they are just an example for the DB connection.
 
 ## - Problems
