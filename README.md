@@ -2,7 +2,7 @@
 
 
 With this template, you are set to deploy your application to Heroku.
-I´m using a Spring backend, React JS Frontend with MongoDB database.
+I´m using a Spring backend, React TS Frontend with MongoDB database.
 
 ## Try it out
 - Standard react starting-page: https://kevinowens.herokuapp.com/
