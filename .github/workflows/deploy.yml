@@ -42,7 +42,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: template.jar #Must be the same as 'finalName' in pom.xml
-          path: backend/target/template.jar
+          path: backend/target/template.jar #Change .jar name to the above
 
   deploy-heroku:
     runs-on: ubuntu-latest
