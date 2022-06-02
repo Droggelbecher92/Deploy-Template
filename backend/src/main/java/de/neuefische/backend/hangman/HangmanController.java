@@ -11,7 +11,8 @@ public class HangmanController {
 
     @GetMapping
     public String sayHello(){
-        return "Hallo Welt!";
+
+        return "_________";
     }
 
 }

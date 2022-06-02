@@ -14,6 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
 public class HangmanIT {
+    //Lösungswort: HALLOWELT
 
     @Autowired
     private MockMvc mockMvc;
@@ -21,8 +22,14 @@ public class HangmanIT {
     @Test
     void shouldReturnText() throws Exception {
         mockMvc.perform(get("/api/hangmen"))
-                .andExpect(content().string("Hallo Welt!"));
+                .andExpect(content().string("_________"));
 
+    }
+
+    @Test
+    void shouldFindLetterAInSolution() throws Exception {
+        mockMvc.perform(post("/api/hangmen/a"))
+                .andExpect(content().string("_A_______"));
     }
 
 
