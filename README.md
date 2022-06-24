@@ -26,8 +26,8 @@ I´m using a Spring backend, React TS Frontend with MongoDB database.
       => java/current version => copy the connection string
 - Let´s head to Heroku:
     - Create an App for your application
-    - Head to settings and reveal Config Vars
-    - Add the Key `URI` and as Value paste in your connetion string (replace user
+    - Head to settings and reveal `Config Vars`
+    - Add the Key `URI` and as Value paste in your connection string (replace user
       and password with your values)
     - Since we are already on Heroku, we need some kind of authentication for
       GitHub, in this case an API-Key. We can generate our API-Key in Heroku by clicking the
@@ -42,20 +42,20 @@ I´m using a Spring backend, React TS Frontend with MongoDB database.
 ## - What to change:
 
 - pom.xml:
-  - change the finalName to your Appname.
+  - change the `finalName` inside the tag to your Appname.
   - You can change the groupId if you like.
 
 - Github Action:
-  - All points of change are marked inside th action.
+  - All points of change are marked inside the action.
 
 - Dockerfile:
   - Please change the Label :D
-  - The .jar name should be changed to the same name, as in the pom.xml under 'finalName' (at three places, you´ll manage to do it!)
+  - The .jar name should be changed to the same name, as in the pom.xml under `finalName` (at three places, you´ll manage to do it!)
 
 - application.properties:
   - You can change the DB name for your local MongoDB here.
 
-- You can remove all Packages in the backend, they are just an example for the DB connection.
+- You can remove all Packages in the backend, they are just an example for the DB connection.(Maybe consider leaving the `ReactRouterFix)
 
 ## - Problems
 - If you encounter any problems using this template, please let me know by stating an issue on GitHub.
