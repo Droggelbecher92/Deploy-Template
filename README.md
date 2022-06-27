@@ -19,7 +19,6 @@ I´m using a Spring backend, React TS Frontend with MongoDB database.
 - Clone this Repo and connect it with a new Repo of yours(you can delete the .git Folder and make a new git init).
 - Install or sign up to Heroku and MongoDB using the Links above.
 
-
 - MongoDB Atlas:
     - create a Cluster for your App (check the pricing, there is a free tier)
     - After you created it, use the connect button => connect your application
